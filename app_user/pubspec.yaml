@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_maps_flutter: ^2.9.0
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  shared_preferences: ^2.0.13
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +23,5 @@ flutter:
   uses-material-design: true
   assets:
     - lib/images/logo_crossnet.png
+    - lib/images/foto.png
+    - lib/images/dummy.jpeg
